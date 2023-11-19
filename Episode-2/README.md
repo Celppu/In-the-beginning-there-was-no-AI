@@ -1,4 +1,3 @@
-markdown
 [← Back to Main README](../README.md)
 
 # Episode 2: Installing Python Tools for Llama AI
@@ -76,7 +75,7 @@ Try these:
 5. Read about the parameters loaded to the model (check comments)
 
 
-## Task 2: More convenient user interface
+## Task 2: Token history limit
 
 ### Creating an Interactive AI Chatbot
 
@@ -101,13 +100,44 @@ This task will deepen your understanding of how conversational AI models process
 
 ---
 
-## Task 3:
+## Task 3: Multi Agent Conversation
 
-## Task 4:
+To make the chatbot more interesting, we can add more agents to the conversation. In this task you will learn how to create multi agent conversation.
 
-## Task 5:
+Copy the code from Task 2 and modify it to support multi agent conversation. You can use the code from Task 2 as a starting point.
 
-Fill these placeholders with the descriptions of the projects/exercises you plan to include in this episode.
+### Key Concepts:
+1. **Multi Agent Conversation**: Understand how to create multi agent conversation.
+2. **Managing Conversation History**: Understand how to maintain a rolling history of tokens to keep the conversation relevant and coherent.
+3. **Using Stop Words**: Explore how stop words can guide the AI's response generation, marking natural ends of sentences or turns in conversation.
+
+### Exercise:
+- Complete previous task
+- Instead of using one agent, ask user to input who they are in this round of conversation and who ai will be answering for.
+- Read about prompt format for the model you are using. You can find the information from the model repository. For example: https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF
+
+### Testing
+- Test the conversation with different agents. For example: You, AI, Bob, Alice, John, Jane, etc.
+- Test if llm can remember who said what. Prompting is enough
+
+## Task 4: Brainwash
+
+Brainwashing is a technique that can be used to make the AI to say what you want. In this task you will learn how to use brainwashing to make the AI to say what you want.
+
+### Key Concepts:
+- System message
+   - System message is a message that is added to the beginning of the prompt. It can be used to guide the AI's response generation. Test different system messages and see how they affect the AI's response generation.
+- Prompt template
+   - Think if you can guide the conversation by desiciding what the AI will say before you give it to llm. For example
+      ```
+      - User: Hello
+      - AI: Arr! I am a pirate! -> and generation starts here.
+      ```
+ 
+
+## Task 5: TODO to do
+
+TODO do todo
 
 ## License
 
