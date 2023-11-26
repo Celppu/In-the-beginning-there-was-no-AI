@@ -19,7 +19,7 @@ Dive into some AI examples for fun and get a grip on installing and using variou
 Setting up LLama AI and using it. Some exercises to get started with AI.
 - [Episode 2 Details](Episode-2/README.md)
 
-### Episode 3: Manipulating AI
+### Episode 3: Manipulating AI continued
 Learn how to manipulate AI by making a UI, managing memory, and exploring prompt engineering.
 - [Episode 3 Details](Episode-3/README.md)
 

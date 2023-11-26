@@ -4,6 +4,15 @@
 
 Welcome to Episode 2! Here we'll install Python bindings for llama.cpp to begin our AI programming adventure, focusing on a CPU-based setup using WSL 2 for Windows users.
 
+## Prerequisites
+Basic python skills, debugger, documentation reading, "peek declaration" and "peek definition" skills.
+
+## Learning Objectives
+- Understand how to install Python bindings for llama.cpp.
+- Learn how to use the Llama AI through Python bindings.
+- Explore the effects of different parameters like 'max_tokens', 'temperature', and the use of 'stream' for generating responses.
+
+
 ## Using WSL 2 (Recommended for Windows Users)
 
 Setting up WSL 2 provides a Linux environment on Windows, facilitating development tasks. Follow these steps:
@@ -76,7 +85,7 @@ Try these:
 
 
 ## Task 2: Token history limit
-
+[history.py](./history.py)
 ### Creating an Interactive AI Chatbot
 
 Creating chatbot that can handle long inputs and outputs is not easy task. In this task you will learn how to tokenize and limit history of the conversation. You will also learn how to use stop words to guide the AI's response generation.
@@ -138,6 +147,31 @@ Brainwashing is a technique that can be used to make the AI to say what you want
 ## Task 5: TODO to do
 
 TODO do todo
+
+# Workshop / Lesson
+
+Last exercise is done in class. 
+
+AI pöhinä (pöhinä = hype)
+- Use 2 minutes writing down some use cases for llm models
+and present them to group ( 5 minutes )
+
+Poject ideas.
+ - Use 2 minutes writing down some project ideas for llm models or anything on python.
+ - Keep the note. Learning to write down ideas is important skill. Aiming for a goal is best motivator to learn new topic.
+
+Share you best AI memes
+
+Fill feedback form here: TODO
+
+## LAst but not least: Memes
+
+Effect of temperature and top_p on the AI's response generation.
+
+https://www.reddit.com/r/LocalLLaMA/comments/13vv941/temperature10000_and_top_p01_is_hilarious/
+
+TODO some quality memes
+
 
 ## License
 
