@@ -13,8 +13,8 @@ from llama_cpp import Llama
 
 # Initialize argument parser and define default model path
 parser = argparse.ArgumentParser()
-# Change model path to your own model
-wsllocation = "C:/Users/valtionrautatiet/Downloads/airoboros-m-7b-3.0.Q4_K_M.gguf"
+# Change model path to your own model - airoboros-m-7b-3.0.Q4_K_S.gguf
+wsllocation = "/home/celp/models/airoboros-m-7b-3.0.Q4_K_S.gguf"
 parser.add_argument("-m", "--model", type=str, default=wsllocation)
 args = parser.parse_args()
 
