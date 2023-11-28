@@ -22,6 +22,8 @@ Pomodoro technique is something you can look up if you want to know more about t
 
 ## Today's lesson
 
+### Not today! We have lot to do and we will stay in the classroom for the whole lesson.
+
 1. Material
 2. Learning goals
 3. Installing python
@@ -30,8 +32,11 @@ Pomodoro technique is something you can look up if you want to know more about t
 5. Debugging
 (Independent work. Video on screen)
 6. LLM tools
-7. Prompt engineering and manipulating AI
 (Prompting)
+7. Form study groups
+(In classroom. Paper around for team names. attendants list)
+8. Homework and next lesson
+(Spoilers: Finish the exercises, test all the llm tools. Try to get copilot student license)
 
 
 Also we will start with
@@ -45,7 +50,7 @@ Also we will start with
 
 Course is divided into episodes. Episodes can be one lesson or two lessons depending on the pace of the class. Each episode has a README file that contains the material for the episode. Each episode also has a homework that you should do before the next episode. Homework is not mandatory, but you will not get the most out of the course if you do not do the homework. Homework is also not graded.
 
-I will test your knowledge in the class with small quizzes. These quizzes are not graded and you can not fail them. They are just to test your knowledge and to help you to understand the material. Also I will check you groups homework checklist to see the actual pace of the class. This will be used to adjust the pace of the course.
+I will later test your knowledge in the class with small quizzes. These quizzes are not graded and you can not fail them. They are just to test your knowledge and to help you to understand the material. Also I will check you groups homework checklist to see the actual pace of the class. This will be used to adjust the pace of the course.
 
 Topics we will cover in order:
 
@@ -98,24 +103,39 @@ print("   *")
 
 Use debugger to go through the code line by line. Also try to change the code and see what happens.
 
+# Debugging
+
+Learning to use debugger is must. It is the most important tool in your toolbox. You should learn to use it as soon as possible. It will save you a lot of time and frustration.
+
+Also it is expected from you on all programming courses in the future and in your future work. For some unkown reason it is something always expected from you, but never taught. I will try to change that.
+
+Some of you already know the print method!
+
+(Class)
+
+Debugger usage:
+https://www.youtube.com/watch?v=oCcTiRGPogQ
+
 # Code exercises
 
 ## Exercise 1
+[task1.py](./task1.py)
 Find python file in the episode folder. Run the file and see what happens. Try to change the code and see what happens.
 Read the code and try to understand what it does.
 Comments in the code are marked with #. Try to understand what the comments mean.
 
 ## Exercise 2
+[task2.py](./task2.py)
 Write a program that prints out a square of asterisks. Size of the square should be given as a parameter to the program.
 Read comments
 
 ## Exercise 3
 In this exercise will learn to finde keywords from text. Example use case would be a bot that only answers if it is mentioned in the message. This is a very simple example, but it is a good starting point for more complex bots.
 
-[mentionfinder.py](./mentionfinder.py)
+[task3-mentionfinder.py](./task3-mentionfinder.py)
 
 ## Exercise 4
-Check next section andtest all listed tools. Try to understand where they excel and where they fail. Test them all with same prompt and see what happens.
+Check next section and test all listed tools. Try to understand where they excel and where they fail. Test them all with same prompt and see what happens.
 
 
 # LLM tools
