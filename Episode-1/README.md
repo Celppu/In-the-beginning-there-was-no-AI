@@ -57,9 +57,12 @@ Topics we will cover in order:
 1. Introduction to the course and Python
 2. Debugging
 3. Coding python examples
-4. Neural networks in theory
-5. Available llm tools
-6. Prompt engineering and manipulating AI
+4. Available llm tools
+
+Filler episodes https://www.learnpython.org/en/Welcome
+
+5. Neural networks in theory
+6. Prompt engineering
 7. Installing and using LLama AI
 8. Using LLama AI examples
 9. Building on top of LLama AI. Also learning to read documentation.
@@ -153,3 +156,4 @@ https://www.youtube.com/watch?v=oCcTiRGPogQ
 
 Neural
 https://www.youtube.com/watch?v=aircAruvnKk
+https://playground.tensorflow.org/

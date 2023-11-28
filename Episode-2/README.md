@@ -12,10 +12,23 @@ Basic python skills, debugger, documentation reading, "peek declaration" and "pe
 - Learn how to use the Llama AI through Python bindings.
 - Explore the effects of different parameters like 'max_tokens', 'temperature', and the use of 'stream' for generating responses.
 
+## Installing on windows (Recommended for users with less RAM)
 
-## Using WSL 2 (Recommended for Windows Users)
+### TODO
 
-Setting up WSL 2 provides a Linux environment on Windows, facilitating development tasks. Follow these steps:
+Basically you need to install visual studio build tools and cmake. Then you can install the python package with pip.
+
+1. [Download Visual Studio Build Tools](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019)
+And select community.
+In the installer find c++ build tools and install it
+
+Then proceed with the `pip install llama-cpp-python` command.
+
+## Using WSL 2 (Recommended for users with a lot of RAM)
+
+Setting up WSL 2 provides a Linux environment on Windows. This is easiest option get graphics acceleration for the AI and to use the GPU for training and inference. Down side is that the linux will take some space of the precious RAM and you need to learn to use linux. But it is worth it in the long run.
+
+Facilitating development tasks. Follow these steps:
 
 1. Ensure you have Windows 10, updated to version 2004, Build 19041, or higher.
 2. Open PowerShell as Administrator and run: `wsl --install`
@@ -39,15 +52,6 @@ pip install llama-cpp-python
 ```
 
 Visit the [llama-cpp-python repository](https://github.com/abetlen/llama-cpp-python) for detailed instructions and troubleshooting.
-
-## Additional Setup for Native Windows
-
-If you're installing directly on Windows, you will need Visual Studio Build Tools and CMake:
-
-1. [Download Visual Studio Build Tools](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019)
-2. [Get CMake](https://cmake.org/download/)
-
-Then proceed with the `pip install llama-cpp-python` command.
 
 ## Working with the API
 
