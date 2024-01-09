@@ -77,6 +77,8 @@ Filler episodes https://www.learnpython.org/en/Welcome
 Python
 https://www.youtube.com/watch?v=6i3e-j3wSf0
 
+# In installer check "add to PATH"
+
 Python is a programming language. It is used in many different fields. It is easy to learn and it is very popular. It is also very easy to install and use. Python is also very popular in AI and machine learning.
 
 Example of python code for a simple hello world program:
