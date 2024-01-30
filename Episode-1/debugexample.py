@@ -21,6 +21,7 @@ def print_christmas_tree(size):
         # Center align the trunk with respect to the width of the tree's base
         print((' ' * (size - trunk_width - 1)) + ('*' * (2 * trunk_width + 1)))
 
-# Example usage
-tree_size = int(input("Enter the size of the Christmas tree: "))
-print_christmas_tree(tree_size)
+# Ask user for the size
+size = int(input("Enter the size of the tree: "))
+# Print the tree
+print_christmas_tree(size)
