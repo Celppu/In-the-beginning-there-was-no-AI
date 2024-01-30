@@ -4,8 +4,11 @@
 # Import discord.py to access Discord's API
 import discord
 
-# Create an instance of a client (bot)
-bot = discord.Client()
+# Create an instance of a client (bot)intents = discord.Intents.default()
+intents = discord.Intents.default() 
+# NOTE: Old tutorials do not have the intents parameter
+#      If you get an error, try the following instead:
+bot = discord.Client(intents=intents)
 
 # Event listener for when the bot is ready (online)
 @bot.event
