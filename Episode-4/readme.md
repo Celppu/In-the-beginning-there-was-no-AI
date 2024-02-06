@@ -4,6 +4,11 @@
 
 In this episode we will mostly follow tutorials from external sources. This folder will contain example code and links to the tutorials.
 
+## Links to tutorials
+Installation guide with pictures here (with KSYK school email):
+https://docs.google.com/document/d/1wbbcZdGLqVdpmmMRR53iRCUWIEZvPjA7ItPoKKxn3ao/edit?usp=sharing
+
+
 ## Prerequisites
 - How to pip install
 - Variables, conditions, functions, loops
