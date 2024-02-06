@@ -24,8 +24,14 @@ Read about the setup and making test server. Make token and invite bot to server
 
 ## Second task: Hello world
 
-Install discord binding
+### Needed tools
 
+1. [Download Visual Studio Build Tools](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019)
+And select community.
+In the installer find c++ build tools and install it
+
+
+2. Install discord bindings for python
 ```pip install discord.py```
 
 
