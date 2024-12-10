@@ -1,39 +1,92 @@
-#Write a program that prints out a square of asterisks. Size of the square should be given as a parameter to the program.
-#Read comments
+#Find python file in the episode folder. Run the file and see what happens. Try to change the code and see what happens.
+#Read the code and try to understand what it does.
+#Comments in the code are marked with #. Comments are ignored by the computer when it runs the code.
 
-# print_square.py
 
-def print_square(size):
+# Function for addition
+def add(x, y):
     """
-    Prints a square of asterisks.
-
-    This function takes an integer 'size' and prints a square of asterisks,
-    where each side of the square has 'size' number of asterisks.
+    Adds two numbers x and y.
 
     Parameters:
-    size (int): The size of the square.
+    x (float): First number
+    y (float): Second number
 
-    Example:
-    If size is 3, the output should be:
-    ***
-    ***
-    ***
-
-    TODO: Complete this function to print the square.
+    Returns:
+    float: The sum of x and y
     """
+    return x + y
 
-    # TODO: Use a loop to print each line of the square.
-    # Hint: You'll need a loop inside another loop (nested loop).
-    # The outer loop should iterate 'size' times, once for each line.
-    # The inner loop should also iterate 'size' times to print the asterisks in a line.
-    # Use 'print("*", end="")' to print asterisks on the same line.
-    # Use a simple 'print()' to move to the next line after printing each line of asterisks.
+# Function for subtraction
+def subtract(x, y):
+    """
+    Subtracts y from x.
 
+    Parameters:
+    x (float): First number
+    y (float): Second number
+
+    Returns:
+    float: The difference of x and y
+    """
+    return x - y
+
+# TODO: Function for multiplication - to be completed by the student
+def multiply(x, y):
+    """
+    Multiplies two numbers x and y.
+    
+    TODO: Implement this function to return the product of x and y.
+
+    Parameters:
+    x (float): First number
+    y (float): Second number
+
+    Returns:
+    float: The product of x and y
+    """
     # Your code here
+    pass
 
-# Ask the user for the size of the square
-try:
-    square_size = int(input("Enter the size of the square: "))
-    print_square(square_size)
-except ValueError:
-    print("Please enter a valid integer for the size.")
+# Function for division
+def divide(x, y):
+    """
+    Divides x by y.
+
+    Parameters:
+    x (float): First number
+    y (float): Second number
+
+    Returns:
+    float or str: The quotient of x and y, or 'undefined' if y is 0
+    """
+    if y == 0:
+        return "undefined"
+    else:
+        return x / y
+
+# Main loop to ask for user input
+while True:
+    # Ask for the operation to be performed
+    operation = input("Enter operation (add, subtract, multiply, divide) or 'quit' to exit: ").lower()
+
+    # Exit condition
+    if operation == 'quit':
+        print("Calculator exiting. Goodbye!")
+        break
+
+    # Ask for numbers
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+
+    # Perform the operation
+    if operation == 'add':
+        print("Result:", add(num1, num2))
+    elif operation == 'subtract':
+        print("Result:", subtract(num1, num2))
+    elif operation == 'multiply':
+        print("Result:", multiply(num1, num2)) # This will not work until the function is implemented
+    elif operation == 'divide':
+        print("Result:", divide(num1, num2))
+    else:
+        print("Invalid operation.")

@@ -4,6 +4,13 @@
 # A 'mention' is identified as a word in the comment that starts with '@' followed by the user's name.
 # Students are tasked to complete the function by following the instructions in the comments.
 
+
+# Takes in
+# comment: str - The comment text to search through.
+# user: str - The username to look for in the comment.
+
+# Returns
+# bool: True if the user is mentioned in the comment, False otherwise.
 def is_user_mentioned(comment, user):
     """
     Checks if a user is mentioned in a comment.
@@ -33,6 +40,7 @@ def is_user_mentioned(comment, user):
 
     # TODO: If no match is found in the entire loop, return False
     # Hint: This return statement should be outside of the loop
+    return None # Placeholder return value. Code should not return this value.
 
 # Example comments for testing
 comment1 = "Hey @Alice, did you finish your homework?"
@@ -45,3 +53,28 @@ comment4 = "Does anyone want to join my study group?"
 # print(is_user_mentioned(comment2, "Alice"))  # Expected output: False
 # print(is_user_mentioned(comment3, "Charlie")) # Expected output: True
 # print(is_user_mentioned(comment4, "David"))   # Expected output: False
+
+# Tests:
+print(is_user_mentioned(comment1, "Alice"))  # Expected output: True
+if is_user_mentioned(comment1, "Alice") == True:
+    print("1 Test passed")
+else:
+    print("1 Test failed")
+    
+print(is_user_mentioned(comment2, "Alice"))  # Expected output: False
+if is_user_mentioned(comment2, "Alice") == False:
+    print("2 Test passed")
+else:
+    print("2 Test failed")
+    
+print(is_user_mentioned(comment3, "Charlie")) # Expected output: True
+if is_user_mentioned(comment3, "Charlie") == True:
+    print("3 Test passed")
+else:
+    print("3 Test failed")
+
+print(is_user_mentioned(comment4, "David"))   # Expected output: False
+if is_user_mentioned(comment4, "David") == False:
+    print("4 Test passed")
+else:
+    print("4 Test failed")
